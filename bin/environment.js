@@ -18,6 +18,8 @@ exports.bootstrap = (eg, adapter) => {
     env.adapter = adapter;
   }
 
+  yargs.parserConfiguration({ 'boolean-negation': false });
+
   const program = yargs;
 
   const generatorsPath = path.join(__dirname, 'generators');

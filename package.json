@@ -134,9 +134,6 @@
     "tmp": "0.0.33",
     "yeoman-test": "^1.9.1"
   },
-  "yargs": {
-    "boolean-negation": false
-  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
