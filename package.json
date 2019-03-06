@@ -1,5 +1,5 @@
 {
-  "name": "express-gateway",
+  "name": "@mld/express-gateway",
   "version": "1.15.0",
   "description": "A microservices API gateway built on top of ExpressJS",
   "homepage": "https://www.express-gateway.io",
@@ -29,6 +29,9 @@
   "main": "lib/index.js",
   "engines": {
     "node": ">= 8.0.0"
+  },
+  "publishConfig": {
+    "registry": "https://nexus-i.consentric.io:8082/repository/npm-consentric-private/"
   },
   "scripts": {
     "start": "node lib/index.js",
